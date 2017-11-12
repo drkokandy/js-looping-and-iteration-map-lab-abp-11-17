@@ -1,6 +1,6 @@
 // Code your solution in this file.
 function lowerCaseDrivers(array) {
-  return array.map(original,function (driver) {
+  return array.map(array,function (driver) {
     return driver.toLowerCase();
   })
 }
